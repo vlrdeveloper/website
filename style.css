@@ -1,0 +1,137 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+   height: 100%;
+   width: 100%;
+   font-family: sans-serif;
+   background-color: #000090;
+}
+#main{
+    position: relative;
+}
+nav{
+    background-color: rgba(0, 0, 102, .9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://static-ss.xnxx-cdn.com/v-600201636c3/v3/img/skins/xnxx/top-stripe.png);
+    background-position: center;
+    padding: 0 2vw;
+    position: relative;
+}
+nav img{
+    width: 25vw;
+}
+.right p{
+    font-size: 1vw;
+    font-weight: 300;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.search input{
+    width: 18vw;
+    height: 2vw;
+    background-color: #004be8;
+    border: 1px solid black;
+    font-size: 1.2vw;
+}
+.search button{
+    height: 1.9vw;
+    width: 3.5vw;
+    background-color: #004be8;
+    border: 1px solid black;    
+    color: white;
+}
+.bar{
+    width: 100%;
+    height: 2vw;
+    background-color: #004be8;
+    display: flex;
+    gap: 1.8vw;
+    color: white;
+    align-items: center;
+    padding-left: 2vw;
+}
+.bar p{
+    font-size: 1vw;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.gold{
+    background-color: #8b5812;
+    height: 2vw;
+    width: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+#main-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 5vw 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2vw;
+}
+.box{
+    width: 20vw;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.bannar1{
+    width: 20vw;
+    height: 12vw;
+    background-image: url("https://gcore-pic.xnxx-cdn.com/videos/thumbs169xnxxll/a6/13/6d/a6136da3bf6bff029507e71eb3ff398a/a6136da3bf6bff029507e71eb3ff398a.15.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bannar2{
+    width: 20vw;
+    height: 12vw;
+    background-image: url("https://gcore-pic.xnxx-cdn.com/videos/thumbs169xnxxll/fd/41/36/fd4136eccd440770987bfe68fc68610b/fd4136eccd440770987bfe68fc68610b.21.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bannar3{
+    width: 20vw;
+    height: 12vw;
+    background-image: url("https://cdn77-pic.xnxx-cdn.com/videos/thumbs169xnxxl/73/38/32/73383224b9e97f8e58a6d1fe28f27294/73383224b9e97f8e58a6d1fe28f27294.8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bannar4{
+    width: 20vw;
+    height: 12vw;
+    background-image: url("https://cdn77-pic.xnxx-cdn.com/videos/thumbs169xnxxll/a7/31/b4/a731b413c8b9f0abcd24432d7c798494/a731b413c8b9f0abcd24432d7c798494.14.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bannar5{
+    width: 20vw;
+    height: 12vw;
+    background-image: url("https://cdn77-pic.xnxx-cdn.com/videos/thumbs169xnxxl/ea/23/04/ea2304a6a4c2e25dc463b6c97d09960a-1/ea2304a6a4c2e25dc463b6c97d09960a.3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box h4{
+    color: #5c99fe;
+    font-size: 1vw;
+}
+.box p{
+    font-size: 1vw;
+    font-weight: 200;
+    line-height: 1vw;
+    color: #fff;
+}
