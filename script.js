@@ -15,7 +15,7 @@ main.addEventListener("submit", function (e) {
   if (username === correctUsername && password === correctPassword) {
     image.src = "happy.png";
     setTimeout(() => {
-      window.location.href = "page2.html";
+      window.location.href = "welcome.html";
     }, 3000);
   } else {
     image.src = "angry.png";
